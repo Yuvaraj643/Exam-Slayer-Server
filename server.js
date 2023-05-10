@@ -20,13 +20,13 @@ const data = {
               chapters: [
                 {
                   id: 1,
-                  name: "Introduction to Programming Concepts",
-                  Preview:
+                  name: "Introduction to Machine Learning ",
+                  description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1sylFPXTNIv8E58gjqXGdVlWvCxTyD_O0",
                 },
                 {
                   id: 2,
-                  name: "Functions and Arrays",
+                  name: "Artificial Neural Networks",
                   description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1Z4_LXVqGgGeM-nb_xh89lmUzR6eUCrBV",
                 },
