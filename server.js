@@ -12,41 +12,41 @@ const data = {
       semesters: [
         {
           id: 1,
-          name: "First Semester",
+          name: "Sixth Semester[3-2]",
           subjects: [
             {
               id: 1,
-              name: "Introduction to Programming",
+              name: "Machine Learning",
               chapters: [
                 {
                   id: 1,
                   name: "Introduction to Programming Concepts",
-                  description:
-                    "This chapter covers basic programming concepts such as variables, data types, and control structures.",
+                  Preview:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1sylFPXTNIv8E58gjqXGdVlWvCxTyD_O0",
                 },
                 {
                   id: 2,
                   name: "Functions and Arrays",
                   description:
-                    "This chapter covers functions, arrays, and how to use them in programming.",
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1Z4_LXVqGgGeM-nb_xh89lmUzR6eUCrBV",
                 },
                 {
                   id: 3,
                   name: "Pointers and Memory Management",
                   description:
-                    "This chapter covers pointers and memory management in C programming.",
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1o3038LUTMNXlaRNJdd1ycUAQrND0W8Zg",
                 },
                 {
                   id: 4,
                   name: "Object-Oriented Programming Concepts",
                   description:
-                    "This chapter covers object-oriented programming concepts such as classes, objects, and inheritance.",
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1vdpaEORn9qFGUk8cP-jcbFUhUopKM4pE",
                 },
                 {
                   id: 5,
                   name: "Exception Handling",
                   description:
-                    "This chapter covers how to handle exceptions in programming."
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1_9n0kOPqtlzqMhhC1E9MG6qHpdQEdxul"
                 }
               ]
             }
