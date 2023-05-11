@@ -3,12 +3,15 @@ const app = express();
 var cors = require("cors");
 app.use(cors());
 
-app.use(function(req, res, next) {
-    res.header('Access-Control-Allow-Origin', '*');
-    res.header('Access-Control-Allow-Methods', 'GET, PUT, POST, DELETE, OPTIONS');
-    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
-    next();
-  });
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
 const data = {
   departments: [
@@ -19,7 +22,7 @@ const data = {
       semesters: [
         {
           id: 1,
-          name: "Fifth Semester[3-]",
+          name: "Fifth Semester[3-2]",
           subjects: [
             {
               id: 1,
@@ -88,8 +91,8 @@ const data = {
                   description: "https://mdisk.pro/FIOT-UNIT-II",
                 },
               ],
-            }
-          ]
+            },
+          ],
         },
         {
           id: 1,
@@ -162,8 +165,8 @@ const data = {
                   description: "https://mdisk.pro/FIOT-UNIT-II",
                 },
               ],
-            }
-          ]
+            },
+          ],
         },
         {
           id: 2,
@@ -367,17 +370,5 @@ app.get(
 //port
 const PORT = process.env.PORT || 5000;
 
-// app.listen(PORT, () => [console.log(`listening to the ${PORT}`)]);
-// app.use(function (req, res, next) {
-//   res.header("Access-Control-Allow-Origin", "*");
-//   res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
-//   res.header(
-//     "Access-Control-Allow-Headers",
-//     "Origin, X-Requested-With, Content-Type, Accept"
-//   );
-//   next();
-// });
+app.listen(PORT, () => [console.log(`listening to the ${PORT}`)]);
 
-app.listen(PORT,() =>[
-    console.log(`listening to the ${PORT}`)
-])
