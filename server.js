@@ -19,6 +19,80 @@ const data = {
       semesters: [
         {
           id: 1,
+          name: "Fifth Semester[3-]",
+          subjects: [
+            {
+              id: 1,
+              name: "Machine Learning",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Introduction to Machine Learning ",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1sylFPXTNIv8E58gjqXGdVlWvCxTyD_O0",
+                },
+                {
+                  id: 2,
+                  name: "Artificial Neural Networks",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1Z4_LXVqGgGeM-nb_xh89lmUzR6eUCrBV",
+                },
+                {
+                  id: 3,
+                  name: "Pointers and Memory Management",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1o3038LUTMNXlaRNJdd1ycUAQrND0W8Zg",
+                },
+                {
+                  id: 4,
+                  name: "Object-Oriented Programming Concepts",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1vdpaEORn9qFGUk8cP-jcbFUhUopKM4pE",
+                },
+                {
+                  id: 5,
+                  name: "Exception Handling",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1_9n0kOPqtlzqMhhC1E9MG6qHpdQEdxul",
+                },
+              ],
+            },
+            {
+              id: 2,
+              name: "Software Engineering",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Introduction to Software Engineering",
+                  description: "https://mdisk.pro/SE-UNIT-I",
+                },
+                {
+                  id: 2,
+                  name: "Software Requirements",
+                  description: "https://mdisk.pro/SE-UNIT-II",
+                },
+              ],
+            },
+            {
+              id: 2,
+              name: "FIOT",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit-1",
+                  description: "https://mdisk.pro/FIOT-UNIT-I",
+                },
+                {
+                  id: 2,
+                  name: "Unit-2",
+                  description: "https://mdisk.pro/FIOT-UNIT-II",
+                },
+              ],
+            }
+          ]
+        },
+        {
+          id: 1,
           name: "Sixth Semester[3-2]",
           subjects: [
             {
@@ -293,16 +367,16 @@ app.get(
 //port
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => [console.log(`listening to the ${PORT}`)]);
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
+// app.listen(PORT, () => [console.log(`listening to the ${PORT}`)]);
+// app.use(function (req, res, next) {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
+//   res.header(
+//     "Access-Control-Allow-Headers",
+//     "Origin, X-Requested-With, Content-Type, Accept"
+//   );
+//   next();
+// });
 
 app.listen(PORT,() =>[
     console.log(`listening to the ${PORT}`)
