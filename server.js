@@ -22,6 +22,142 @@ const data = {
       semesters: [
         {
           id: 1,
+          name: "Fifth Semester[3-1]",
+          subjects: [
+            {
+              id: 1,
+              name: "Advanced Artificial Intelligence",
+              chapters: [
+                {
+                  id: 1,
+                  name: "UNIT-I ",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/139iksKh6bb07ZXBB_qonCim_mHiA3kxq",
+                },
+                {
+                  id: 2,
+                  name: "UNIT-II",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1WHuV90pat7vZn-aiRHO5s3hem83SYg0J",
+                },
+                {
+                  id: 3,
+                  name: "UNIT-III",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1jsv5ogowC0EnOJd19xPglCrqHcpHDNI4",
+                },
+                {
+                  id: 4,
+                  name: "UNIT-IV",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1a3W8XxaDvAk8Ik_Ool8vO5SpbwHO5XCE",
+                },
+                {
+                  id: 5,
+                  name: "UNIT-V",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1zcINe9kkeC6JF5wbpPEL4aSWmlVcu2g8",
+                },
+              ],
+            },
+            {
+              id: 1,
+              name: "STM",
+              chapters: [
+                {
+                  id: 1,
+                  name: "UNIT-I ",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1WZuhHd9owQLk4FOvMfVTe7A2FqJot2l5/view",
+                },
+                {
+                  id: 2,
+                  name: "UNIT-II",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1hq4BMLw9_UFy33dedYFSSupqbbXU5aa_/view",
+                },
+                {
+                  id: 3,
+                  name: "UNIT-III",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1efyuHWsXfwY_JNhCkOjiU81BQzm6APNJ/view",
+                },
+                {
+                  id: 4,
+                  name: "UNIT-IV",                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1xVa1l-M5yzqv7Olin7tJx42fITZWBoH5/view",
+                },
+                {
+                  id: 5,
+                  name: "UNIT-V",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/18ofJl4JtZoAAsIaqdRgjA6UH9kqRanes/view",
+                },
+              ],
+            },
+            {
+              id: 2,
+              name: "Computer Networks",
+              chapters: [
+                {
+                  id: 1,
+                  name: "UNIT-1",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1Rp3LFG8orxnx3fjCnwG94yfoiBU7LRbZ",
+                },
+                {
+                  id: 2,
+                  name: "UNIT-II",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1FeNyUpneXtzGL7FeSF5985CU5wlgKrwx",
+                },
+                {
+                  id:3 ,
+                  name: "UNIT-III",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1MEG13wwXT4dHjA5ken2JfUhNf54GDCzw",
+                },  
+                {
+                  id: 4,
+                  name: "UNIT-IV",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1bjCageyAOmBBboptAsWtRRXibk2BxAQx",
+                },    {
+                  id: 5,
+                  name: "UNIT-V",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1BUVIsdgf5L2YfWe0krkfa85Hs8nGPQdE",
+                }
+              ],
+            },
+            {
+              id: 3,
+              name: "DataWarehousing and Data Mining",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit-I",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1bH8nBSC0V8G8NwXhvv6U3zySrThF3qrP",
+                },
+                {
+                  id: 2,
+                  name: "Unit-II",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1wH4GxlDIEb51ihMkI-bhGL61gXvdExO7",
+                },
+                {
+                  id: 3,
+                  name: "Unit-III",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1zKrzlUltgritdEn7qVSbQ4kGTXDgIErC",
+                },  {
+                  id: 4,
+                  name: "Unit-IV",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1FDwq0tjYTeSGh1WTubhFXsx-QgZoaEHK",
+                },  {
+                  id: 5,
+                  name: "Unit-V",
+                  description: "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/11Xgxkwgp-0llY3Hn8OQ1LSNT_g3uFuvN",
+                },
+              ],
+            }
+          ]
+        },
+        {
+          id: 2,
           name: "Fifth Semester[3-2]",
           subjects: [
             {
@@ -167,49 +303,7 @@ const data = {
               ],
             },
           ],
-        },
-        {
-          id: 2,
-          name: "Second Semester",
-          subjects: [
-            {
-              id: 1,
-              name: "Introduction to Programming",
-              chapters: [
-                {
-                  id: 1,
-                  name: "Introduction to Programming Concepts",
-                  description:
-                    "This chapter covers basic programming concepts such as variables, data types, and control structures.",
-                },
-                {
-                  id: 2,
-                  name: "Functions and Arrays",
-                  description:
-                    "This chapter covers functions, arrays, and how to use them in programming.",
-                },
-                {
-                  id: 3,
-                  name: "Pointers and Memory Management",
-                  description:
-                    "This chapter covers pointers and memory management in C programming.",
-                },
-                {
-                  id: 4,
-                  name: "Object-Oriented Programming Concepts",
-                  description:
-                    "This chapter covers object-oriented programming concepts such as classes, objects, and inheritance.",
-                },
-                {
-                  id: 5,
-                  name: "Exception Handling",
-                  description:
-                    "This chapter covers how to handle exceptions in programming.",
-                },
-              ],
-            },
-          ],
-        },
+        }
       ],
     },
   ],
@@ -370,5 +464,6 @@ app.get(
 //port
 const PORT = process.env.PORT || 5000;
 
-app.listen(PORT, () => [console.log(`listening to the ${PORT}`)]);
+console.log("started");
 
+// app.listen(PORT, () => [console.log(`listening to the ${PORT}`)]);
