@@ -91,71 +91,57 @@ const data = {
                 },
                 {
                   id: 5,
-                  name: "UNit 5",
+                  name: "Unit 5",
                   description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1t7KVbumIvsrGDHaoiuW3w7IkWeEXb1zV/view?usp=sharing",
                 },
               ],
             },
             {
-              id: 3,
-              name: "Dummy Subject 3",
+              id: 03,
+              name: "Linear algebra and calculus",
               chapters: [
                 {
                   id: 1,
-                  name: "Dummy Chapter 1",
-                  description: "Dummy Link 1",
+                  name: "Unit 1",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1jcdEopYeAvgFVtBR5F6wh2cbCjT1TjZn/view?usp=sharing",
                 },
                 {
                   id: 2,
-                  name: "Dummy Chapter 2",
-                  description: "Dummy Link 2",
+                  name: "Unit 2 not done",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/12fc9XYnTYGY83ymXRN0D02VJU456Y-G3/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
                 },
                 {
                   id: 3,
-                  name: "Dummy Chapter 3",
-                  description: "Dummy Link 3",
+                  name: "Unit 3",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/11Ze9Cvhfq3gHAYkQkpbecxpzgpmKoiRs/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
                 },
                 {
                   id: 4,
-                  name: "Dummy Chapter 4",
-                  description: "Dummy Link 4",
+                  name: "Unit 4 not done",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/1a8BzBirgVwyajg78rwxCvU4gcJfpEje7/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
                 },
                 {
                   id: 5,
-                  name: "Dummy Chapter 5",
-                  description: "Dummy Link 5",
+                  name: "UNit 5 not done",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/1pMEvayg2p1J4AZy2RTHCs7eTlQD5S619/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
                 },
               ],
             },
             {
-              id: 5,
-              name: "Dummy Subject 4",
+              id: 04,
+              name: "Engineering GRaphics",
               chapters: [
                 {
                   id: 1,
-                  name: "Dummy Chapter 1",
-                  description: "Dummy Link 1",
-                },
-                {
-                  id: 2,
-                  name: "Dummy Chapter 2",
-                  description: "Dummy Link 2",
-                },
-                {
-                  id: 3,
-                  name: "Dummy Chapter 3",
-                  description: "Dummy Link 3",
-                },
-                {
-                  id: 4,
-                  name: "Dummy Chapter 4",
-                  description: "Dummy Link 4",
-                },
-                {
-                  id: 5,
-                  name: "Dummy Chapter 5",
-                  description: "Dummy Link 5",
+                  name: "Unit 1",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/presentation/d/1m10YgQAfFHdQ0AVf35k0vrgGvpHot7zh/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
                 },
               ],
             },
@@ -164,7 +150,7 @@ const data = {
         {
           id: 1,
           name: "Fifth Semester[3-1]",
-          logo : "https://i.ibb.co/G7Fbbr2/sem5.png",
+          logo: "https://i.ibb.co/G7Fbbr2/sem5.png",
           subjects: [
             {
               id: 1,
@@ -315,7 +301,7 @@ const data = {
         {
           id: 2,
           name: "Sixth Semester",
-          logo : "https://i.ibb.co/cTghkCW/sem6.png",
+          logo: "https://i.ibb.co/cTghkCW/sem6.png",
           subjects: [
             {
               id: 1,
