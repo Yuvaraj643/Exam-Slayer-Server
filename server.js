@@ -135,13 +135,146 @@ const data = {
             },
             {
               id: 04,
-              name: "Engineering GRaphics",
+              name: "Engineering Graphics",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit 1-5",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/presentation/d/1m10YgQAfFHdQ0AVf35k0vrgGvpHot7zh/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 2,
+          name: "Second Semester",
+          logo: "https://i.ibb.co/zPkcwtk/sem2.png",
+          subjects: [
+            {
+              id: 01,
+              name: "Professional English",
               chapters: [
                 {
                   id: 1,
                   name: "Unit 1",
                   description:
-                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/presentation/d/1m10YgQAfFHdQ0AVf35k0vrgGvpHot7zh/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1PvxmAmpOIm0i1M_D4u-xmQ8Cur5IDBbi/view?usp=share_link",
+                },
+                {
+                  id: 2,
+                  name: "Unit 2",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1rVTix7IHOVpFZarSDcHsBCoRdd5AKjOg/view?usp=share_link",
+                },
+                {
+                  id: 3,
+                  name: "Unit 3",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1gOGeoFaEn6EGq_E8tVK9NcDE1QhTEhjO/view?usp=sharing",
+                },
+                {
+                  id: 4,
+                  name: "Link not available",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/14PYLWpI_f0F8WNWfY7oQNf3FWRO3qzwO/view?usp=sharing",
+                },
+                {
+                  id: 5,
+                  name: "UNit 5",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1O11kccFvBm668TqpJUly9HBaPOgrlU2u/view?usp=sharing",
+                },
+              ],
+            },
+            {
+              id: 02,
+              name: "Basic Electrical Engineering",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit 1",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/presentation/d/18RDXlmtFfjYs-OZFNENIW512wi97xgdQ/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+                {
+                  id: 2,
+                  name: "Unit 2",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/presentation/d/1Dlr4tBcHOrOeikt-WKgEGS78qJ0EiKja/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+                {
+                  id: 3,
+                  name: "Unit 3",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1N3Cpp1NxgVijGi1tloMfLJgkPcADgOtK/view?usp=sharing",
+                },
+                {
+                  id: 4,
+                  name: "Link not available",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1N3Cpp1NxgVijGi1tloMfLJgkPcADgOtK/view?usp=share_link",
+                },
+                {
+                  id: 5,
+                  name: "UNit 5",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1tBhcFbFIZx3M_5LTlj2hFItDX-xGxQot/view?usp=sharing",
+                },
+              ],
+            },
+            {
+              id: 03,
+              name: "Advanced calculus",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit 1",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1z-9ydDkc6K00Xt0MAOoxAGTlMqoh5t1K/view?usp=share_link",
+                },
+                {
+                  id: 2,
+                  name: "Unit 2",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/16-r1heW3xPF5xtMBv8surQ3Qvv7spDlo/view?usp=share_link",
+                },
+                {
+                  id: 3,
+                  name: "Unit 3",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/18oWbVbofZsmkOssnQ7xjex0EnF1UrJb2/view?usp=share_link",
+                },
+                {
+                  id: 4,
+                  name: "Unit 4 & 5",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1rIFnjalA3FpUPVzaL_ernwNNJM78IXBt/view?usp=share_link",
+                },
+              ],
+            },
+            {
+              id: 04,
+              name: "Engineering Chemestry",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit 1",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1MAz3qGA08TLuSUQGDXmJrjARomBYsUau/view?usp=share_link",
+                },
+                {
+                  id: 2,
+                  name: "Unit 2",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/15UdnAZx2Wz5X2AkssLg2QWwppILI5r8X/view?usp=share_link",
+                },
+                {
+                  id: 3,
+                  name: "Unit 5",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/presentation/d/1FE6cyULLLnjhLJ-mOsq9x8FA35wy-pQ2/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
                 },
               ],
             },
