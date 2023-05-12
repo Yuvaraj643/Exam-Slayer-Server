@@ -18,7 +18,7 @@ const data = {
     {
       id: 01,
       name: "CSE(Artificial Intelligence AND Machine Learning)",
-      logo: "logo.png",
+      logo: "https://i.ibb.co/YTwFTc3/CSE.jpg",
       semesters: [
         {
           id: 1,
