@@ -3,7 +3,6 @@ const app = express();
 var cors = require("cors");
 app.use(cors());
 
-
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Origin", "*");
   res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
@@ -23,7 +22,149 @@ const data = {
       semesters: [
         {
           id: 1,
+          name: "First Semester",
+          logo: "https://i.ibb.co/GdQLNB4/sem1.png",
+          subjects: [
+            {
+              id: 01,
+              name: "Programming for problem solving",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit 1",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/1wkUWRS854q_oTrIfivQNkMW7ydfnJb8N/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+                {
+                  id: 2,
+                  name: "Unit 2",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/12fc9XYnTYGY83ymXRN0D02VJU456Y-G3/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+                {
+                  id: 3,
+                  name: "Unit 3",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/1VdvmqJBBgdAfzDpuPCnzYPYH3iXaJikJ/edit?usp=share_link&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+                {
+                  id: 4,
+                  name: "Unit 4",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/1a8BzBirgVwyajg78rwxCvU4gcJfpEje7/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+                {
+                  id: 5,
+                  name: "UNit 5",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/document/d/1pMEvayg2p1J4AZy2RTHCs7eTlQD5S619/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+              ],
+            },
+            {
+              id: 02,
+              name: "Applied physics",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Unit 1",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1FL-wcfB2pPVHnonc-U9Bn2m7rlS2-BDu/view?usp=sharing",
+                },
+                {
+                  id: 2,
+                  name: "Unit 2",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1zuoFWhBq9ZqujA7H6KJiZxLI0kK5ED5Y/view?usp=sharing",
+                },
+                {
+                  id: 3,
+                  name: "Unit 3",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://docs.google.com/presentation/d/1YFF73dmiuKEfk6EcsJTfvtKID1gwVqO9/edit?usp=sharing&ouid=103138954158945462772&rtpof=true&sd=true",
+                },
+                {
+                  id: 4,
+                  name: "Link not available",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1Ab0xPVHLENJDKub_TvP6tQ0w_eko9jul/view?usp=sharing",
+                },
+                {
+                  id: 5,
+                  name: "UNit 5",
+                  description:
+                    "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1t7KVbumIvsrGDHaoiuW3w7IkWeEXb1zV/view?usp=sharing",
+                },
+              ],
+            },
+            {
+              id: 3,
+              name: "Dummy Subject 3",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Dummy Chapter 1",
+                  description: "Dummy Link 1",
+                },
+                {
+                  id: 2,
+                  name: "Dummy Chapter 2",
+                  description: "Dummy Link 2",
+                },
+                {
+                  id: 3,
+                  name: "Dummy Chapter 3",
+                  description: "Dummy Link 3",
+                },
+                {
+                  id: 4,
+                  name: "Dummy Chapter 4",
+                  description: "Dummy Link 4",
+                },
+                {
+                  id: 5,
+                  name: "Dummy Chapter 5",
+                  description: "Dummy Link 5",
+                },
+              ],
+            },
+            {
+              id: 5,
+              name: "Dummy Subject 4",
+              chapters: [
+                {
+                  id: 1,
+                  name: "Dummy Chapter 1",
+                  description: "Dummy Link 1",
+                },
+                {
+                  id: 2,
+                  name: "Dummy Chapter 2",
+                  description: "Dummy Link 2",
+                },
+                {
+                  id: 3,
+                  name: "Dummy Chapter 3",
+                  description: "Dummy Link 3",
+                },
+                {
+                  id: 4,
+                  name: "Dummy Chapter 4",
+                  description: "Dummy Link 4",
+                },
+                {
+                  id: 5,
+                  name: "Dummy Chapter 5",
+                  description: "Dummy Link 5",
+                },
+              ],
+            },
+          ],
+        },
+        {
+          id: 1,
           name: "Fifth Semester[3-1]",
+          logo : "https://i.ibb.co/G7Fbbr2/sem5.png",
           subjects: [
             {
               id: 1,
@@ -62,7 +203,7 @@ const data = {
               ],
             },
             {
-              id: 1,
+              id: 2,
               name: "STM",
               chapters: [
                 {
@@ -98,7 +239,7 @@ const data = {
               ],
             },
             {
-              id: 2,
+              id: 3,
               name: "Computer Networks",
               chapters: [
                 {
@@ -134,7 +275,7 @@ const data = {
               ],
             },
             {
-              id: 3,
+              id: 5,
               name: "DataWarehousing and Data Mining",
               chapters: [
                 {
@@ -173,7 +314,8 @@ const data = {
         },
         {
           id: 2,
-          name: "Fifth Semester[3-2]",
+          name: "Sixth Semester",
+          logo : "https://i.ibb.co/cTghkCW/sem6.png",
           subjects: [
             {
               id: 1,
