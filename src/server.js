@@ -29,7 +29,7 @@ const data = {
           logo: "https://i.ibb.co/GdQLNB4/sem1.png",
           subjects: [
             {
-              id: 01,
+              id: 1,
               name: "Programming for problem solving",
               chapters: [
                 {
@@ -65,7 +65,7 @@ const data = {
               ],
             },
             {
-              id: 02,
+              id: 2,
               name: "Applied physics",
               chapters: [
                 {
@@ -101,7 +101,7 @@ const data = {
               ],
             },
             {
-              id: 03,
+              id: 3,
               name: "Linear algebra and calculus",
               chapters: [
                 {
@@ -137,7 +137,7 @@ const data = {
               ],
             },
             {
-              id: 04,
+              id: 4,
               name: "Engineering Graphics",
               chapters: [
                 {
@@ -192,7 +192,7 @@ const data = {
               ],
             },
             {
-              id: 02,
+              id: 2,
               name: "Basic Electrical Engineering",
               chapters: [
                 {
@@ -228,7 +228,7 @@ const data = {
               ],
             },
             {
-              id: 03,
+              id: 3,
               name: "Advanced calculus",
               chapters: [
                 {
@@ -258,7 +258,7 @@ const data = {
               ],
             },
             {
-              id: 04,
+              id: 4,
               name: "Engineering Chemestry",
               chapters: [
                 {
