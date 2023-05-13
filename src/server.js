@@ -156,7 +156,7 @@ const data = {
           logo: "https://i.ibb.co/zPkcwtk/sem2.png",
           subjects: [
             {
-              id: 01,
+              id: 1,
               name: "Professional English",
               chapters: [
                 {
