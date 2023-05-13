@@ -1,7 +1,21 @@
 const express = require("express");
+
+const serverless = require("serverless-http");
+
 const app = express();
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 var cors = require("cors");
 app.use(cors());
+const router = express.Router();
+
 const data = {
   departments: [
     {
@@ -500,7 +514,7 @@ const data = {
   ],
 };
 
-app.get("/", (req, res) => {
+router.get("/", (req, res) => {
   res.json({
     message: "Welcome",
   });
@@ -652,19 +666,13 @@ app.get(
   }
 );
 
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
 
+app.use(`./netlify/functions/server`, router);
 //port
-const PORT = process.env.PORT || 5000;
+// const PORT = process.env.PORT || 5000;
 
 console.log("started");
 
 // app.listen(PORT, () => [console.log(`listening to the ${PORT}`)]);
+
+module.exports.handler = serverless(app);
