@@ -2,17 +2,6 @@ const express = require("express");
 const app = express();
 var cors = require("cors");
 app.use(cors());
-
-app.use(function (req, res, next) {
-  res.header("Access-Control-Allow-Origin", "*");
-  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
-  res.header(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept"
-  );
-  next();
-});
-
 const data = {
   departments: [
     {
@@ -281,7 +270,7 @@ const data = {
           ],
         },
         {
-          id: 1,
+          id: 5,
           name: "Fifth Semester[3-1]",
           logo: "https://i.ibb.co/G7Fbbr2/sem5.png",
           subjects: [
@@ -662,6 +651,16 @@ app.get(
     res.json(chapter);
   }
 );
+
+app.use(function (req, res, next) {
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Methods", "GET, PUT, POST, DELETE, OPTIONS");
+  res.header(
+    "Access-Control-Allow-Headers",
+    "Origin, X-Requested-With, Content-Type, Accept"
+  );
+  next();
+});
 
 //port
 const PORT = process.env.PORT || 5000;
