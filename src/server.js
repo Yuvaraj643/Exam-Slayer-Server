@@ -19,12 +19,12 @@ const router = express.Router();
 const data = {
   departments: [
     {
-      id: 01,
+      id: "01",
       name: "CSE(Artificial Intelligence AND Machine Learning)",
       logo: "https://i.ibb.co/YTwFTc3/CSE.jpg",
       semesters: [
         {
-          id: 1,
+          id: "1",
           name: "First Semester",
           logo: "https://i.ibb.co/GdQLNB4/sem1.png",
           subjects: [
