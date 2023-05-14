@@ -275,7 +275,7 @@ const data = {
         },
         {
           id: 5,
-          name: "Fifth Semester[3-1]",
+          name: "Fifth Semester",
           logo: "https://i.ibb.co/G7Fbbr2/sem5.png",
           subjects: [
             {
@@ -425,7 +425,7 @@ const data = {
           ],
         },
         {
-          id: 2,
+          id: 6,
           name: "Sixth Semester",
           logo: "https://i.ibb.co/cTghkCW/sem6.png",
           subjects: [
@@ -435,31 +435,31 @@ const data = {
               chapters: [
                 {
                   id: 1,
-                  name: "Introduction to Machine Learning ",
+                  name: "Unit-1",
                   description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1sylFPXTNIv8E58gjqXGdVlWvCxTyD_O0",
                 },
                 {
                   id: 2,
-                  name: "Artificial Neural Networks",
+                  name: "Unit-2",
                   description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1Z4_LXVqGgGeM-nb_xh89lmUzR6eUCrBV",
                 },
                 {
                   id: 3,
-                  name: "Pointers and Memory Management",
+                  name: "Unit-3",
                   description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1o3038LUTMNXlaRNJdd1ycUAQrND0W8Zg",
                 },
                 {
                   id: 4,
-                  name: "Object-Oriented Programming Concepts",
+                  name: "Unit-4",
                   description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1vdpaEORn9qFGUk8cP-jcbFUhUopKM4pE",
                 },
                 {
                   id: 5,
-                  name: "Exception Handling",
+                  name: "Unit-5",
                   description:
                     "https://omegalinks.in/st?api=047357b11a31a7f79fa7ae627cfe1b23b143224e&url=https://drive.google.com/file/d/1_9n0kOPqtlzqMhhC1E9MG6qHpdQEdxul",
                 },
